@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Registration Form</title>
+<meta charset = "UTF-8">
+<style>
+body{background-color: Beige;}
+
+form{
+width: 28%;
+background-color: LightPink;
+padding: 55px;
+margin: auto;
+margin-top: 50px;}
+
+input[type="submit"]{
+width: 92%;
+heigth: 30px;
+margin-top: 12px;
+border-radius: 5px;
+border-style: none
+font-weight: bold;
+background-color: MediumPurple;}
+
+input[type="submit"]:hover{
+background-color: rgb(250, 43, 98);
+color: #ffeaf0;
+cursor: pointer;}
+
+label{
+color: black;
+font-family: Verdana Medium;
+display: inline-block;
+width: 128px;
+margin-bottom: 13px;}
+
+label[for="male"], label[for="female"], label[for="other"]{
+width: auto;}
+
+label[for="aboutme"]{
+position: absolute;
+margin-top: 20px;}
+
+select{
+width: 160px;
+height: 23px;}
+
+textarea{
+margin-top: 4px;
+margin-left: 132px;}
+
+textarea::placeholder{
+font-size: 13px;
+font-family: Arial;}
+
+</style>
+</head>
+<body>
+<form>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname" placeholder="your first name"><br>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname" placeholder="your last name"><br>
+
+<label for="gender">Gender:</label>
+<label for="male">Male:</label>
+<input type="radio" name="gender" id="male">
+<label for="female">Female:</label>
+<input type="radio" name="gender" id="female">
+
+<label for="address">Address:</label>
+<textarea placeholder="Your adress.." name="address" rows="3" cols="20"></textarea><br>
+
+<label for="phonenumber">Phone Number:</label>
+<input type="number" id="phonenumber" name="phonenumber"><br>
+
+<label for="email">Email:</label>
+<input type="text" id="email" name="email" placeholder="your email"><br>
+
+<label for="Ebackground">Educational Background:</label>
+<label for="spm">SPM:</label>
+<input type="radio" name="Ebackground" id="spm">
+<label for="dip">Diploma:</label>
+<input type="radio" name="Ebackground" id="dip">
+<label for="deg">Degree:</label>
+<input type="radio" name="Ebackground" id="deg">
+<label for="mas">Master:</label>
+<input type="radio" name="Ebackground" id="mas">
+<label for="phd">PhD:</label>
+<input type="radio" name="Ebackground" id="phd">
+
+<label for="uname">User Name:</label>
+<input type="text" id="uname" name="uname"><br>
+
+<label for="pwd">Password:</label>
+<input type="password" id="pwd" name="pwd"><br>
+<label for="repwd">Re-Enter Password:</label>
+<input type="password" id="repwd" name="repwd"><br>
+
+ <button type="submit">Submit</button>
+            <button type="clr">Clear</button>   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+</form>
+</body>
+</html>

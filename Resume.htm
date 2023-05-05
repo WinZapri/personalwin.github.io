@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Resume</title>
+<script src="https://kit.fontawesome.com/3ef3559250.js" crossorigin="anonymous"></script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --bg-clr: #6b7fba;
+  --white: #fff;
+  --rleft-bg: #9ab3eb;
+  --rright-bg: #8096d0;
+  --primary-text-clr: #525252;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: var(--bg-clr);
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--primary-text-clr);
+  padding: 0 20px;
+}
+
+h2 {
+  font-family: "Calligraffitti", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+  background: var(--white);
+}
+
+.resume .resume_left {
+  width: 270px;
+}
+
+.resume .resume_right {
+  background: var(--rright-bg);
+  width: calc(800px - 270px);
+}
+
+.resume_left .r_profile_pic,
+.resume_right .r_namerole {
+  width: 100%;
+  height: 260px;
+  padding: 35px;
+}
+
+.resume_left .r_profile_pic {
+  background: var(--rleft-bg);
+}
+
+.resume_left .r_profile_pic img {
+  width: 100%;
+}
+
+.resume_left .r_left_sub {
+  padding: 35px;
+}
+
+.resume_left .r_left_sub > div:not(:last-child),
+.resume_right .r_right_sub > div:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.resume_left .r_aboutme p {
+  text-align: center;
+}
+
+.resume_left .r_skills ul li,
+.resume_left .r_skills ul li p:first-child,
+.resume_left .r_hobbies ul li p:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.resume_left .r_skills ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.resume_left .r_skills ul li p:first-child,
+.resume_left .r_hobbies ul li p:first-child {
+  width: 45px;
+  height: 45px;
+  background: var(--rleft-bg);
+  margin-right: 15px;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.resume_left .r_hobbies ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume_left .r_hobbies ul li {
+  margin-bottom: 10px;
+}
+
+.resume_left .r_hobbies ul li p:hover {
+  background: var(--rright-bg);
+}
+
+.resume_right .r_namerole p {
+  font-family: "Calligraffitti", cursive;
+  font-size: 60px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.resume_right .r_namerole p:last-child {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.resume_right .r_info {
+  padding: 35px;
+  background: var(--white);
+}
+
+.resume_right .r_info ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume_right .r_info p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.resume_right .r_right_sub {
+  padding: 35px;
+  padding-bottom: 0;
+}
+
+.resume_right .r_right_sub p {
+  color: var(--white);
+}
+
+.resume_right .r_right_sub ul li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.resume_right .r_right_sub ul li div:first-child {
+  width: 25%;
+  margin-right: 15px;
+}
+
+.resume_right .r_right_sub ul li div:last-child {
+  width: 75%;
+}
+
+.resume_right .r_right_sub p:first-child {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+</style>
+
+<body>
+<section class="resume">
+  <div class="resume_left">
+    <div class="r_profile_pic">
+      <img height=200 width=200 src="profile.jpg" alt="profile_pic">
+    </div>
+    <div class="r_left_sub">
+      <div class="r_aboutme">
+        <h2>About me</h2>
+        <p>Hello! My name is Nur Zawin Awatif Binti Zapri.
+I am 21 years old. I'm studying in KPPIM, majoring Netcentric Computing.
+My goals is to be Digital Forensic Investigator in the future.</p>
+      </div>
+      <div class="r_skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <p><i class="fa-solid fa-code"></i></p>
+            <p>Web Development</p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-pen-nib"></i></p>
+            <p>Web Designing</p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-video"></i></p>
+            <p>Video Editing</p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-headphones"></i></p>
+            <p>Sound Mixing</p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-image"></i></p>
+            <p>Photoshop Editing</p>
+          </li>
+        </ul>
+      </div>
+      <div class="r_hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>
+            <p><i class="fa-solid fa-football"></i></p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-plant-wilt"></i></p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-book"></i></p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-bicycle"></i></p>
+          </li>
+          <li>
+            <p><i class="fa-solid fa-chess"></i></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="resume_right">
+    <div class="r_namerole">
+      <p>Zawin</p>
+      <p>Awatif</p>
+      <p class="role">Computer Science Student</p>
+    </div>
+    <div class="r_info">
+      <ul>
+        <li>
+          <p>cherry.hyu@gmail.com</p>
+        </li>
+        <li>
+          <p>+60 16 955677447</p>
+        </li>
+      </ul>
+    </div>
+    <div class="r_right_sub">
+      <div class="r_education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <div class="r_ed_left">
+              <p>2015-2019</p>
+            </div>
+            <div class="r_ed_right">
+              <p>SMK KOMPLEKS MENGABANG TELIPOT</p>
+              <p>My achievements in high school are I got 5As in SPM examination and I have been notable as the idol of NILAM 2019.</p>
+            </div>
+          </li>
+          <li>
+            <div class="r_ed_left">
+              <p>2020-2021</p>
+            </div>
+            <div class="r_ed_right">
+              <p>PAHANG MATRICULATION COLLEGE</p>
+              <p>My achievement in Matric is I got pointer 3.15 in Pure Science Major.</p>
+            </div>
+          </li>
+          <li>
+            <div class="r_ed_left">
+              <p>2021-2025</p>
+            </div>
+            <div class="r_ed_right">
+              <p>UITM SHAH ALAM</p>
+              <p>My achievements in Bachelor degree are I got dean's list in Semester 2 and I got an experience to be a secretary in Cyber Security SULAM Project. </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="r_jobs">
+        <h2>Work Experience</h2>
+        <ul>
+		<li>
+            <div class="r_ed_left">
+              <p>2021 (6 months)</p>
+            </div>
+            <div class="r_ed_right">
+              <p>HZR RESOURCES</p>
+              <p>I worked as an administrator that manage Quran class for adult and kids. I handled around 800 of students in that company.</p>
+            </div>
+          </li>
+          <li>
+            <div class="r_ed_left">
+              <p>2022-2023</p>
+            </div>
+            <div class="r_ed_right">
+              <p>BAYU BEACH HOUSE PENAREK</p>
+              <p>I worked as a sea lifeguard that watch over the guests that visit the resort's beach.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

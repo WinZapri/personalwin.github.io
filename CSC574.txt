@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align: center;">Course Information</h1>
+
+<p style="background-color:Tomato;"text-align: center;">Course Code: CSC574</p>
+<p style="text-align: center;">Course Name: Dynamic Web Application Design</p>
+<p style="background-color:Tomato;"text-align: center;">Group: CS2514A</p>
+<p style="text-align: center;">Lecturer's Name: Nur Aina Khadijah Binti Adnan</p>
+
+
+</body>
+</html>

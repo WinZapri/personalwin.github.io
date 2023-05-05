@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align: center;">Course Information</h1>
+
+<p style="background-color:LightGray;text-align: center; font-size: 20px; font-family: Arial;">Course Code: ITT569</p>
+<p style="text-align: center;font-size: 20px; font-family: Arial;">Course Name: Internet of Things</p>
+<p style="background-color:LightGray;text-align: center; font-size: 20px; font-family: Arial;">Group: CS2514A</p>
+<p style="text-align: center; font-size: 20px; font-family: Arial;">Lecturer's Name: Shapina Binti Abdullah</p>
+
+
+</body>
+</html>

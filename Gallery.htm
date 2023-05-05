@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Awin's Treasure</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-light-pink w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>Awin's<br>Gallery</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PHOTOS</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">VIDEOS</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">MUSICS</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Awin's Gallery</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="1.jpg" style="width:100%" onclick="onClick(this)" alt="1">
+      <img src="2.jpg" style="width:100%" onclick="onClick(this)" alt="2">
+      <img src="3.jpg" style="width:100%" onclick="onClick(this)" alt="3">
+    </div>
+
+    <div class="w3-third">
+      <img src="4.jpg" style="width:100%" onclick="onClick(this)" alt="4">
+      <img src="5.jpg" style="width:100%" onclick="onClick(this)" alt="5">
+      <img src="19.jpg" style="width:100%" onclick="onClick(this)" alt="19">
+    </div>
+    
+    <div class="w3-third">
+      <img src="7.jpg" style="width:100%" onclick="onClick(this)" alt="7">
+      <img src="8.jpg" style="width:100%" onclick="onClick(this)" alt="8">
+      <img src="9.jpg" style="width:100%" onclick="onClick(this)" alt="9">
+    </div>
+	
+	 <div class="w3-third">
+      <img src="10.jpg" style="width:100%" onclick="onClick(this)" alt="10">
+      <img src="11.jpg" style="width:100%" onclick="onClick(this)" alt="11">
+      <img src="12.jpg" style="width:100%" onclick="onClick(this)" alt="12">
+    </div>
+	</div>
+	
+	 <div class="w3-row" id="about">
+    <div class="w3-third">
+      <video width="100%" controls>
+       <source src="a.mp4" type="video/mp4">
+       <source src="a.ogg" type="video/ogg">
+      </video>
+      <video width="100%" controls>
+       <source src="b.mp4" type="video/mp4">
+       <source src="b.ogg" type="video/ogg">
+      </video>
+	  <video width="100%"controls>
+       <source src="c.mp4" type="video/mp4">
+       <source src="c.ogg" type="video/ogg">
+      </video>
+    </div>
+
+    <div class="w3-third">
+      <video width="100%" controls>
+       <source src="d.mp4" type="video/mp4">
+       <source src="d.ogg" type="video/ogg">
+      </video>
+      <video width="100%" controls>
+       <source src="e.mp4" type="video/mp4">
+       <source src="e.ogg" type="video/ogg">
+      </video>
+	  <video width="100%" controls>
+       <source src="f.mp4" type="video/mp4">
+       <source src="f.ogg" type="video/ogg">
+      </video>
+    </div>
+    
+    <div class="w3-third">
+      <video width="100%" controls>
+       <source src="k.mp4" type="video/mp4">
+       <source src="k.ogg" type="video/ogg">
+      </video>
+      <video width="100%" controls>
+       <source src="h.mp4" type="video/mp4">
+       <source src="h.ogg" type="video/ogg">
+      </video>
+	  <video width="100%"controls>
+       <source src="i.mp4" type="video/mp4">
+       <source src="i.ogg" type="video/ogg">
+      </video>
+    </div>
+  </div>
+
+<div class="w3-row" id="contact">
+    <div class="w3-third">
+      <audio controls>
+      <source src="Beta.ogg" type="audio/ogg">
+      <source src="Beta.mp3" type="audio/mpeg">
+      </audio>
+      <audio controls>
+      <source src="know.ogg" type="audio/ogg">
+      <source src="know.mp3" type="audio/mpeg">
+      </audio>
+	  <audio controls>
+      <source src="girl.ogg" type="audio/ogg">
+      <source src="girl.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="w3-third">
+      <audio controls>
+      <source src="Merry.ogg" type="audio/ogg">
+      <source src="Merry.mp3" type="audio/mpeg">
+      </audio>
+      <audio controls>
+      <source src="name.ogg" type="audio/ogg">
+      <source src="name.mp3" type="audio/mpeg">
+      </audio>
+	  <audio controls>
+      <source src="Promise.ogg" type="audio/ogg">
+      <source src="Promise.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    
+    <div class="w3-third">
+     <audio controls>
+      <source src="Reason.ogg" type="audio/ogg">
+      <source src="Reason.mp3" type="audio/mpeg">
+      </audio>
+      <audio controls>
+      <source src="victor.ogg" type="audio/ogg">
+      <source src="victor.mp3" type="audio/mpeg">
+      </audio>
+	  <audio controls>
+      <source src="Yiruma.ogg" type="audio/ogg">
+      <source src="Yiruma.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by WinZ</a></div>
+
+</body>
+</html>

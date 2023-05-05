@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Links</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif; background-color: pink;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-center w3-padding-64" id="menu">
+    <div class="w3-center w3-padding-large">
+      <h1 class="w3-center">Check out my UITM Links!</h1><br>
+	  
+	  <img src="UITM_logo.png" alt="UITM logo" width="300" height="100"><br>
+	  
+      <h4><a href="https://simsweb.uitm.edu.my/SPORTAL_APP/SPORTAL_LOGIN/index.cfm">Student Portal</a></h4>
+    
+      <h4><a href="https://www.office.com/?auth=2">Microsoft 360</a></h4>
+    
+      <h4><a href="https://ufuture.uitm.edu.my/login">U-FUTURE</a></h4>
+
+    </div>
+    
+  </div>
+
+  <hr>
+
+</body>
+</html>
